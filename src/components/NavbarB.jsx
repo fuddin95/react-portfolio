@@ -22,7 +22,7 @@ export default function NavbarB() {
                         <NavDropdown title="Skills" id="basic-nav-dropdown">
                             <NavDropdown.Item as={Link} to="/Mechanical">Mech Projects</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/WebApps">Web Apps</NavDropdown.Item>
-                            <NavDropdown.Divider /> 
+                            <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/Upcoming">Upcoming Projects</NavDropdown.Item>
                         </NavDropdown>
 
