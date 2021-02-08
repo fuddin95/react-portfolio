@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 export default function CardBoot(props) {
   return (
     
-    <Card style={{ width: "18rem" }}>
+    <Card style={{ width: "22rem" }}>
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -17,7 +17,7 @@ export default function CardBoot(props) {
         <Button
           variant="primary"
           onClick={() => {
-            console.log("clicked");
+           
           }}
         >
           Visit Me

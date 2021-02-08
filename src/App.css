@@ -10,3 +10,8 @@
 #nav-color{
   background-color: rgb(38, 41, 36);
 }
+
+.d-block{
+  overflow: hidden;
+  height: 100%;
+}

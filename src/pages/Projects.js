@@ -1,7 +1,7 @@
 const mechProjects = [
     {
         id:1,
-        image:'{require("./images/googleKeeper.jpg)}',
+        image:'{require("./images/googleKeeper.jpg")}',
         title:"Google Keeper",
         text:"The page is built using React to mimic google keeper app.",
         url:"https://lt0x2.csb.app/"

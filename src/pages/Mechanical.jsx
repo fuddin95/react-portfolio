@@ -12,8 +12,14 @@ import CardBoot from "../components/CardBoot"
         text="hello this is the second version"
         />
         <CardBoot
-        image= {require("../images/fahad.png")}
+        image= {require('./images/googleKeeper.jpg')}
         title={Projects[0].title}
+        text={Projects[0].text}
+        />
+        <CardBoot
+        image= {Projects[1].image}
+        title={Projects[1].title}
+       
         />
         
      </>
