@@ -12,7 +12,7 @@ export default function NavbarB() {
         <>
 
             <Navbar id="nav-color"  variant="dark" sticky="top" collapseOnSelect expand="md">
-                <Navbar.Brand as={Link} to="/">Fahad</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className="nav-title-brand"><i className='fab fa-firstdraft' />{'  '}Fahad </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-middle">
                     <Nav className="ml-auto">

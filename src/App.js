@@ -7,7 +7,10 @@ import Mechanical from "./pages/Mechanical"
 import WebApps from "./pages/WebApps"
 //Components
 import NavbarB from "./components/NavbarB";
+import FooterB from "./components/FooterB";
+//css
 import "./App.css"
+
 
 
 function App() {
@@ -20,6 +23,7 @@ function App() {
         <Route path ="/Mechanical" exact component={Mechanical}/>
         <Route path ="/WebApps" exact component={WebApps}/>
       </Switch>
+      <FooterB/>
     </Router>
 
       
