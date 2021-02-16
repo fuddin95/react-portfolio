@@ -29,6 +29,21 @@ html,body{
     margin:2%;
   }
 
+  /* Card CSS */
+  #card-css{
+    padding:15px;
+    border-radius: 20px;
+  }
+  .card-img{
+    height:30vh;
+    
+    
+  }
+
+
+
+
+
 
 
   /* Footer CSS */
@@ -37,10 +52,14 @@ html,body{
     margin:0;
     padding-bottom: 0%;
     background-color: rgb(68, 66, 66);
+    position:sticky;
+    width:100%;
+    bottom:0;
 
   }
 
   .footerB p{
+    padding-top:1%;
     color: rgb(230, 233, 227);
     text-align: center;
   }
