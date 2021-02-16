@@ -6,3 +6,8 @@
     height:30vh;
     
   }
+
+  #card-css{
+      text-align: center;
+      justify-content:baseline;
+  }

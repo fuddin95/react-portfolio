@@ -6,7 +6,7 @@ const frontend = [
     
     {
         id:1,
-        image:'https://imgur.com/C78Efjz',
+        image:"https://i.imgur.com/C78Efjz.jpg",
         title:"Lets Jam!",
         text:"This webpage is developed and designed using custom CSS. It utilizes the power of jQuerry and javascript to play drum using your keyboard or even by clicking on the instrument picture",
         url:"https://mywebsite-mfu.herokuapp.com/projects/Drum%20Kit/index.html"
@@ -46,16 +46,18 @@ const reactApps=[
 
 const mechanicalProjects=[
     {
-
+        id:1,
+        image:"",
+        title:"Di-Electric Test Fixture (Kinectrics)",
+        text:"<br/>",
+        url:""
     }
 ]
 export default frontend;
 export {reactApps};
 
-// {
-//     id:,
-//     image:,
-//     title:,
-//     text:,
-//     url:""
-// },
+// id:1,
+// image:"",
+// title:"",
+// text:"",
+// url:""
