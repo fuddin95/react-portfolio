@@ -38,8 +38,8 @@ const reactApps=[
     {
         id:1,
         image:"",
-        title:"",
-        text:"",
+        title:"Note Taker",
+        text:"This react webapp is similar to Google's Keeper App. The notes are updated automatically using hooks and can be deleted as well respectively. The app also uses Icons and animations from Material UI.",
         url:"https://lt0x2.csb.app/"
     }
 ]

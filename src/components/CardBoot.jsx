@@ -7,7 +7,7 @@ import "./CardBoot.css"
 
 function CardBoot(props) {
   return (
-    <Col xl={3} lg={3} md={6}>
+    <Col xl={3} lg={4} md={6}>
     <Card id="card-css">
       <Card.Img id="card-img" variant="top" src={props.image}/>
       <Card.Body>
