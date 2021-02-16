@@ -6,7 +6,7 @@ const frontend = [
     
     {
         id:1,
-        image:'https://lh3.googleusercontent.com/xx3eOLaEnBs5m3z1Lw8XDQqwZzn2_MdtoMTiXQGDXhAL5l5BNwZE6UacH2umqCUcg_MWBFUDsTi3ayA5yfcNqwoQqHZtMDGuM_oeqbEQoZFyxc-wtSuk84PHXvNbpkmjJfd1eUrAoRsrOdo_43zcNPWdMoBsSvIcy_VsAPYx4KCk5EphWMkk9DPnMi8_tSTOaU2eGewg6r5wSSBk0lpQqeoFuTK4m4q9ieMvK7z7RS_KeiVx7BbL9DAEOxbPICGUNeIMtoLIix0SZFeK7foLr9B4TXbVmcLjkLXxP9AbD8kaB0fcUy1zT_9d9PTTX85f85d-cnaQ6fZcTiD9qAigarJri7fLyzbUHfofbcm9y8Pv9w5JQDTeJRMziJEdrcJY8sZzdDFzTmK-QDEaNsGjNdMwKTvQvgCZtKDcSILds6JtwW-46t1eTWxvl3FXAkKpB4odH2n6glvF_3lnSlynsvKPgDn90L7bkSffnDYJJXiu8RXFgQzwlv4pR7qrigM2COiSt1OFseiOIGx9U4riOOYMNi_2X0ybnUM4pwXdeQGyZqCALtpedm3ks92Vy2o61T18WaS-spAUzFDdv5IQC_IkQMlhNyQVPl-gssr3zaxIw54DxhaDgPmgfkLuzZyKvOQVQe0LdM-I0AgKmjSaVW4PYUa5i85g7sIaKprgiKeI4OwlXQDNGTzY9lerfw=s500-no?authuser=0',
+        image:'https://imgur.com/C78Efjz',
         title:"Lets Jam!",
         text:"This webpage is developed and designed using custom CSS. It utilizes the power of jQuerry and javascript to play drum using your keyboard or even by clicking on the instrument picture",
         url:"https://mywebsite-mfu.herokuapp.com/projects/Drum%20Kit/index.html"
@@ -41,6 +41,12 @@ const reactApps=[
         title:"Note Taker",
         text:"This react webapp is similar to Google's Keeper App. The notes are updated automatically using hooks and can be deleted as well respectively. The app also uses Icons and animations from Material UI.",
         url:"https://lt0x2.csb.app/"
+    }
+]
+
+const mechanicalProjects=[
+    {
+
     }
 ]
 export default frontend;
