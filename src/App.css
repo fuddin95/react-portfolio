@@ -2,6 +2,9 @@ html,body{
   margin:0;
   height: 100%;
 }
+ .app-body{
+   margin: 2% 10%;
+ }
 /* NAV BAR CSS */
 .ml-auto{
   padding-right: 20px;}
@@ -23,28 +26,16 @@ html,body{
 /* Carousel  */
 .carousel-inner > .carousel-item > img {
   height:92vh;
+  
+  
 }
+
 /* Mechanical Page CSS */
   .mechanical-page{
     margin:2%;
   }
 
-  /* Card CSS */
-  #card-css{
-    padding:15px;
-    border-radius: 20px;
-  }
-  .card-img{
-    height:30vh;
-    
-    
-  }
-
-
-
-
-
-
+  
 
   /* Footer CSS */
 
@@ -52,7 +43,7 @@ html,body{
     margin:0;
     padding-bottom: 0%;
     background-color: rgb(68, 66, 66);
-    position:sticky;
+    position:relative;
     width:100%;
     bottom:0;
 

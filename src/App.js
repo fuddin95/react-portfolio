@@ -17,13 +17,13 @@ function App() {
   return (
     <Router>
       <NavbarB/>
-      <Switch>
+      <Switch >
         <Route path = "/" exact component={Home}/>
         <Route path ="/AboutMe" exact component={AboutMe}/>
         <Route path ="/Mechanical" exact component={Mechanical}/>
         <Route path ="/WebApps" exact component={WebApps}/>
       </Switch>
-      <FooterB/>
+      {/* <FooterB/> */}
     </Router>
 
       

@@ -1,23 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { Col } from "react-bootstrap";
+import "./CardBoot.css"
 
 
 function CardBoot(props) {
   return (
+    <Col xl={3} lg={3} md={6}>
     <Card id="card-css">
       <Card.Img id="card-img" variant="top" src={props.image}/>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text >{props.text}</Card.Text>
-        <Link to="/AboutMe">
+        <a target="_blank" href={props.url}>
           <Button variant="primary" onClick={() => {}}>
             Visit Me
-          </Button>
-        </Link>
+          </Button></a>
+        
       </Card.Body>
     </Card>
+    </Col>
   );
 }
 
