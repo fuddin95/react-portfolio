@@ -19,7 +19,7 @@ export default function NavbarB() {
                         <Nav.Link as={Link} to="/" className="innerNav">Home</Nav.Link>
                         <Nav.Link as={Link} to="/AboutMe" className="innerNav">About Me</Nav.Link>
 
-                        <NavDropdown title="Skills" id="basic-nav-dropdown">
+                        <NavDropdown title="Projects" id="basic-nav-dropdown">
                             <NavDropdown.Item as={Link} to="/WebApps">Web Apps</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/Mechanical">Mech Projects</NavDropdown.Item>
                             <NavDropdown.Divider />

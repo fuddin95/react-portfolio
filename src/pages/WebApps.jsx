@@ -1,7 +1,7 @@
 import React from "react";
 import { CardDeck, Col, Container, Row } from "react-bootstrap";
 import CardBoot from "../components/CardBoot";
-import Frontend,{reactApps} from "./Projects-mech";
+import Frontend,{reactApps,backendProjects} from "./Projects-mech";
 import "./Pages.css"
 
 export default function WebApps() {
@@ -17,7 +17,7 @@ export default function WebApps() {
               return(
                 <CardBoot
                 key={index}
-                id={index}
+                id={item.id}
                 image={item.image}
                 title={item.title}
                 text={item.text}
@@ -33,7 +33,7 @@ export default function WebApps() {
             return (
               <CardBoot
                 key={index}
-                id={index}
+                id={item.id}
                 image={item.image}
                 title={item.title}
                 text={item.text}
@@ -41,6 +41,22 @@ export default function WebApps() {
               />
             );
           })}
+        </Row>
+        <h2 className="heading-h2">Back-End </h2>
+        <Row>
+        {backendProjects.map((item,index)=>{
+          return (
+              <CardBoot
+                key={index}
+                id={item.id}
+                image={item.image}
+                title={item.title}
+                text={item.text}
+                url={item.url}
+              />
+            );
+        })}
+
         </Row>
       </Container>
     </div>
