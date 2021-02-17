@@ -8,15 +8,52 @@
 /* Home Page */
 .home-page{
     
-    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1607&q=80");
-    background-size: cover;
-    height: 90vh;
-    overflow: hidden;
-    text-align: center;
-      
+background-image: url('../images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  
     
 }
 .home-page h1{
+    font-size: 4rem;
+    opacity: 0.4;
+}
+
+/* About Me */
+.about-me-flex{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    color: beige;
+    justify-content: center;
+    border-radius: 5px;
+    /* border: rgb(105, 85, 58) solid 1px; */
+    box-shadow: 4px 4px 5px 25px rgba(222, 184, 135, .04);
+    height: 70vh;
+    margin-top: 5%;
+
+}
+
+.about-me-heading{
+    font-size: 3rem;
+
+}
+.education{
+    margin: 2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+}
+.education img{
+    margin-right: 1%;
+    width:auto;
+    height:15vh;
 }

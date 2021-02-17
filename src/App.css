@@ -1,11 +1,12 @@
 html,body{
   margin:0;
   height: 100%;
- background: linear-gradient(#221E1F,#1C1C22);
+ background-color: #221E1F;
   
 }
  .app-body{
    margin: 2% 10%;
+   color: cornsilk;
  }
 /* NAV BAR CSS */
 .ml-auto{
