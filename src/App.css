@@ -1,6 +1,8 @@
 html,body{
   margin:0;
   height: 100%;
+ background: linear-gradient(#221E1F,#1C1C22);
+  
 }
  .app-body{
    margin: 2% 10%;
@@ -10,9 +12,10 @@ html,body{
   padding-right: 20px;}
 
 #nav-color{
-  background-color: rgb(38, 41, 36);
+  /* background-color: rgb(38, 41, 36); */
   font-family: 'PT Sans', sans-serif;
   font-size: 1.2rem;
+  padding: 0 8%;
   
 }
 .nav-title-brand{

@@ -1,13 +1,23 @@
 #card-css{
-    padding:15px;
-    border-radius: 20px;
+    
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom:8%;
+    background-color: #1C1C22;
+    color: blanchedalmond;
+    
   }
+
+  #card-css:hover{
+    background-color: #4b4b58;
+  }
+
   .card-img{
     height:30vh;
     
   }
 
-  #card-css{
-      text-align: center;
-      justify-content:baseline;
+  #card-css Img{
+    width:100%;
+    height: 40%;
   }

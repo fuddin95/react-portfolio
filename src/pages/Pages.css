@@ -1,4 +1,22 @@
 .heading-h2{
+    margin: 3%;
     text-align: center;
     font-weight: 700;
+    color: beige;
+}
+
+/* Home Page */
+.home-page{
+    
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1607&q=80");
+    background-size: cover;
+    height: 90vh;
+    overflow: hidden;
+    text-align: center;
+      
+    
+}
+.home-page h1{
+    align-items: center;
+    color: beige;
 }

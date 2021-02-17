@@ -4,9 +4,9 @@ import CarouselB from "../components/CarouselB";
 
 export default function Home(){
     return (
-        <>
-        <CarouselB />
-        
-        </>
+        <div className="home-page">
+        {/* <CarouselB /> */}
+        <h1>Welocme</h1>
+        </div>
     );
 }

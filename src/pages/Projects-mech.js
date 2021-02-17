@@ -37,11 +37,32 @@ const frontend = [
 const reactApps=[
     {
         id:1,
-        image:"https://i.imgur.com/IUGl9d2.jpg",
-        title:"Note Taker",
+        image:"https://i.imgur.com/cMKOgrm.jpg",
+        title:"Google Keeper",
         text:"This react webapp is similar to Google's Keeper App. The notes are updated automatically using hooks and can be deleted as well respectively. The app also uses Icons and animations from Material UI.",
         url:"https://lt0x2.csb.app/"
     },
+    {
+        id:2,
+        image:"https://i.imgur.com/qa96OBf.jpg",
+        title:"Spar Labs",
+        text:"This is a Single page React App UI that can be linked to an API to display realtime data and status of your funds",
+        url:"https://g3q6s.csb.app/"
+    },
+    {
+        id:3,
+        image:"https://i.imgur.com/r3TIYuZ.jpg",
+        title:"To Do List",
+        text:"In this app you can make list of your daily Items and once completed just Click on them to erease it. It uses react Forms, Spread Operator and tirnary operator to achieve this dynamic functionality ",
+        url:"https://zgsb3.csb.app/"
+    },{
+        id:4,
+        image:"https://i.imgur.com/0JEbzJc.jpg",
+        title:"Sign Up Form",
+        text:"The a simple signup form that uses hooks to store and update input data",
+        url:"https://9h0b7.csb.app/"
+    }
+
 ]
 
 const mechanicalProjects=[
@@ -54,7 +75,7 @@ const mechanicalProjects=[
     }
 ]
 export default frontend;
-export {reactApps};
+export {reactApps, mechanicalProjects};
 
 // id:1,
 // image:"",
