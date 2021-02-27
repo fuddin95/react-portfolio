@@ -27,8 +27,8 @@ export default function NavbarB() {
                         </NavDropdown>
 
                     </Nav>
-
-                    <Button variant="outline-success">Contact Me</Button>
+                    <a class="btn" href="mailto:fahaduddin@live.com">
+                    <Button variant="outline-success">Contact Me</Button></a>
 
                 </Navbar.Collapse>
             </Navbar>

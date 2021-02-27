@@ -22,6 +22,7 @@ export default function WebApps() {
                 title={item.title}
                 text={item.text}
                 url={item.url}
+                git={item.git}
               />
               );
           })}
@@ -38,6 +39,7 @@ export default function WebApps() {
                 title={item.title}
                 text={item.text}
                 url={item.url}
+                git={item.git}
               />
             );
           })}
@@ -53,6 +55,7 @@ export default function WebApps() {
                 title={item.title}
                 text={item.text}
                 url={item.url}
+                git={item.git}
               />
             );
         })}

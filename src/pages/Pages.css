@@ -16,6 +16,7 @@ background-image: url('../images/img-1.jpg');
   font-size: 100px;
   
   display: flex;
+  flex-direction: column;
   height: 90vh;
   align-items: center;
   justify-content: center;

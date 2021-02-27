@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { Col } from "react-bootstrap";
+import { Github } from "react-bootstrap-icons";
 import "./CardBoot.css"
 
 
@@ -14,10 +15,13 @@ function CardBoot(props) {
         <Card.Title>{props.title}</Card.Title>
         <Card.Text >{props.text}</Card.Text>
         <a target="_blank" href={props.url}>
-          <Button variant="primary" onClick={() => {}}>
-            Visit Me
+          <Button variant="outline-light" onClick={() => {}}>
+            View Me
           </Button></a>
-        
+
+          <a target="_blank" href={props.git}>
+        <Button variant="outline-secondary"> <Github /></Button></a>
+
       </Card.Body>
     </Card>
     </Col>
