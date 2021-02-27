@@ -67,7 +67,8 @@ const reactApps = [
     text:
       "The a simple signup form that uses hooks to store and update input data",
     url: "https://9h0b7.csb.app/",
-  },
+  }
+ 
 ];
 
 const backendProjects = [
